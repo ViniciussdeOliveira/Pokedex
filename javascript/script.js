@@ -126,7 +126,7 @@ const handleNextPokemon = () => {
         const pokemons = await getPokemons()
         renderPokemons(pokemons)
         observeLastPokemon(pokemonObserver)
-    }, { rootMargin: '500px' })
+    }, { rootMargin: '1000px' })
     observeLastPokemon(pokemonObserver)
 }
 
